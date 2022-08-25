@@ -123,9 +123,9 @@ AC_C_BIGENDIAN(
                [AC_MSG_ERROR([universal endianess not supported])]
                )
 
-# Check for Python >= 3.0
+# Check for Python >= 2.7
 
-AM_PATH_PYTHON([3.0])
+AM_PATH_PYTHON([2.7])
 
 # Check for Python 3 modules
 
